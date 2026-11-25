@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>faganello</title>
+    <style>
+        .celula{ background-color: blue;}
+        .galeria {
+            display: grid;
+            gap: 1rem;
+        }
+
+        /* Só a partir de 768px */
+        @media (min-width: 768px) {
+            .galeria {
+                grid-template-columns: 1fr 1fr;
+            }
+
+        .celula{ background-color: red;}
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="galeria">
+        <section class="celula">A</section>
+        <section class="celula">B</section>
+        <section class="celula">C</section>
+        <section class="celula">D</section>
+    </section>
+
+
+</body>
+
+</html>

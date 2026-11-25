@@ -1,0 +1,20 @@
+  class Limsystem {
+    constructor(end, lenght, speed, creature) }
+       this.creature = creature;
+       this.nodes = [];
+       for (var i = 0; i < lenght; i++) { 
+          this.nodes.unshift(node);
+          node = node.parent;
+          if (!node.isSegment) {
+            this.lenght = i = 1;
+            break;
+          } 
+     } 
+     this.hip = this.nodes[0].parent;
+  }
+
+ update() {
+    this.moveTo(Input.mouse.x, Input.mouse.y);
+   }
+ }
+ 
